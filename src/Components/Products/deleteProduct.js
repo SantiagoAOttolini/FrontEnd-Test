@@ -41,14 +41,6 @@ class DeleteProduct extends Component {
                         </div>
                       );
                     })}
-                  {/* <div className="mt-3">
-            <button
-              className="btnDelete mt-2 btn btn-danger btn-xs"
-              onClick={() => this.props.deleteRewards(reward._id)}
-            >
-              Eliminar
-            </button>
-          </div> */}
                 </div>
               </div>
             </div>
