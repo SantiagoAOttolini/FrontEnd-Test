@@ -4,6 +4,8 @@ import { connect } from "react-redux";
 import Home from "../Components/HomePage/homepage";
 import AddProduct from "../Components/Products/addProduct"
 import DeleteProduct from "../Components/Products/deleteProduct"
+import SelectProduct from "../Components/Products/Edit product/selectProduct"
+import EditProduct from "../Components/Products/Edit product/editProduct"
 
 class Routes extends Component {
   render() {
@@ -13,6 +15,8 @@ class Routes extends Component {
           <Route exact path="/" component={Home} />
           <Route exact path="/addProduct" component={AddProduct} />
           <Route exact path="/deleteProduct" component={DeleteProduct} />
+          <Route exact path="/selectProduct" component={SelectProduct} />
+          <Route exact path="/editProduct/:id" component={EditProduct} />
         </Switch>
       </BrowserRouter>
     );
